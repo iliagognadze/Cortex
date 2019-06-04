@@ -1,0 +1,246 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.titillium{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.raleway{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand img{
+	width: 75%;
+	padding: 0 20px;
+	border-right: solid 2px #4bffa5;
+	border-left: solid 2px #4bffa5;
+}
+
+.nav-item{
+	margin: 0px 1rem;
+}
+
+.nav-link{
+	color: black !important;
+}
+
+.nav-link{
+
+}
+
+.contact-title{
+	margin-top: 20px;
+}
+
+#submit{
+	background-color: #4bffa5 !important;
+	border-color: #4bffa5 !important;
+}
+
+#thank{
+	margin: 20px;
+}
+
+.cool-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #4bffa5;;
+	transition: width .3s
+}
+
+.cool-link:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
+ .fa-bars{
+ 	align-self: center;
+ }
+
+.line{
+	margin: 0;
+	padding: 0;
+	border: solid 2px #4bffa5;
+}
+
+#home{
+	background: url(https://assets.website-files.com/5bb939aa02efe965075fc7be/5ce7a1aa57f1524d73a26800_1_KodU6ysvLzyVYYe3-urg2g.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 75%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25)
+
+}
+
+#work{
+	background: url(https://www.cv-library.co.uk/career-advice/wp-content/uploads/2018/06/What-is-it-like-working-in-IT.jpg);
+	display: table;
+	height: 75%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25)
+}
+
+#section{
+	width: 100%;
+	margin: 8rem auto;
+}
+
+.drop{
+	width: 5rem;
+}
+
+.section-title{
+	font-size: 3.5rem;
+	background-color: #4bffa5;
+	color: white;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 2rem;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.box-component{
+	margin: 20px 0px;
+}
+
+h2{
+	width: 25%;
+}
+
+.section{
+	display: table;
+}
+
+.landing-text h1{
+	font-size: 300%;
+	font-weight: bold;
+	color: #000; 
+	background-color: white;
+	display: inline-block;
+	padding: 1rem;
+	
+}
+
+.landing-text span{
+	color: #4bffa5
+}
+
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+}
+
+.nav-full{
+	border-bottom: solid 2px #4bffa5;
+}
+
+.row img{
+	width: 100%;
+	
+}
+
+.section-title{
+	margin-bottom: 50px;
+}
+
+.article{
+		margin: 20px 0;
+	}
+
+footer{
+	width: 100%;
+	background-color: #4bffa5;
+	padding: 1% 2%;
+	color: #FFF;
+}
+
+.form-container{
+	margin: 0px 0px 50px 0px;
+}
+
+.fa{
+	padding: 10px 10px;
+	font-size: 25px;
+	color: #4bffa5;
+	background-color: #fff;
+	transition: all 0.6s ease;
+	margin-bottom: 1rem;
+}
+
+.fa:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #4bffa5;
+}
+
+.icon{
+	max-width: 200px;
+}
+
+.footer.row{
+ width: 100%;
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.nav-link{
+		font-size: 140%;
+		float: right;
+	}
+
+	.landing-text h1{
+		font-size: 150%;
+	}
+
+	#home{
+		height: 50%;
+		width: 100%;
+		background-size: auto 100%;
+	}
+
+	.section-title{
+		font-size: 150%;
+	}
+
+	#section{
+		margin: 4rem 0;
+	}
+
+	.row img{
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+
+	#gif{
+		width: 50%;
+		display: block;
+	}
+
+	.article{
+		margin: 20px 0;
+	}
+
+	.img-box{
+		margin-bottom: 60px;
+	}
+}
+
+
